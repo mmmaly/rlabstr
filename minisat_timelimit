@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ulimit -t `cat timelimit.txt` 
+./minisat_static $*

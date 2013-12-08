@@ -1,0 +1,17 @@
+
+0. Requirements:
+   Gnu Compiler Collection (g++)
+   Graphviz library (dot)
+   GNU Make (make)
+   GNU screen (for comfortable display of different aspects of the algorithm progress)
+   Inkscape (for converting svg to pdf)
+   Doxygen (for generating documentation from the source code)
+
+
+1. Place definition of maze into maze.in.
+2. Change params.h appropriately.
+3. Run 'make test' to run the program and see the progress
+4. To generate svg files illustrating the progress of the algorithm, and world model development, run 'make svgs'
+5. If you want to convert svg files to pdf files, run 'make pdfs'
+
+(c) Michal Maly, 2012
